@@ -37,6 +37,7 @@ CSRF_TRUSTED_ORIGINS = ['https://yhospital.onrender.com','https://*.127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    "corsheaders",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -51,7 +52,6 @@ INSTALLED_APPS = [
     'doctor',
     'patient',
     'service',
-    "corsheaders",
 ]
 
 MIDDLEWARE = [
