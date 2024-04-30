@@ -28,6 +28,10 @@ SECRET_KEY = env("KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CORS_ORIGIN_ALLOW_ALL = True
+
+
+CSRF_TRUSTED_ORIGINS = ['https://yhospital.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
